@@ -4,7 +4,7 @@ import Nav from '../Nav/Nav'
 
 export default function Profile() {
   return (
-    <div className="bg-white shadow overflow-hidden sm:rounded-lg">
+    <div className="bg-green-100 shadow overflow-hidden sm:rounded-lg">
         <Nav/>
       <div className="m-8">
       <div className="px-4 py-5 sm:px-6">

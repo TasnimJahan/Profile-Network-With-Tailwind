@@ -18,7 +18,7 @@ import Nav from "../Nav/Nav";
 */
 export default function EditProfile() {
     return (
-      <>
+      <div className="bg-green-100">
       <Nav/>
       <div className="m-8">
         <div>
@@ -404,7 +404,7 @@ export default function EditProfile() {
           </div>
         </div>
         </div>
-      </>
+      </div>
     )
   }
   
