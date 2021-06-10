@@ -4,8 +4,6 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-
-import Dashboard from './components/Dashboard/Dashboard'
 import Hero from './components/Hero/Hero'
 import Login from './components/Login/Login';
 import Profile from './components/Profile/Profile';
@@ -14,8 +12,6 @@ import EditProfile from './components/Profile/EditProfile';
 function App() {
   return (
     <Router>
-            {/* <Dashboard /> */}
-            {/* <Hero />           */}
         <Switch>
           <Route path="/home">
             <Hero/>
